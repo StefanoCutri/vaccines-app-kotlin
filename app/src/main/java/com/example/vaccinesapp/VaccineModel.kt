@@ -1,3 +1,3 @@
 package com.example.vaccinesapp
 
-data class VaccineModel(val title: String, val image: Int)
+data class VaccineModel(val name: String, val image: Int)
