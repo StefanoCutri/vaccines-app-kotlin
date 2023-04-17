@@ -12,15 +12,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         initialize()
-
-
-
-
     }
 
     private fun initialize(){
         with(binding){
-
+            var vaccinesList : ArrayList<VaccineModel> = ArrayList()
         }
     }
 }
